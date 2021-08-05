@@ -40,8 +40,7 @@ setup(
         ]
     },
     entry_points={
-        "console_scripts": ["pantalaimon=pantalaimon.main:main",
-                            "panctl=pantalaimon.panctl:main"],
+        "console_scripts": ["pantalaimon=pantalaimon.main:main"],
     },
     zip_safe=False
 )
